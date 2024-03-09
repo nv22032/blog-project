@@ -4,7 +4,7 @@ import { BsCheckLg } from "react-icons/bs";
 import { images } from "../constants";
 
 const ArticleCard = ({ className }) => {
-   return (
+  return (
     <div
       className={`rounded-xl overflow-hidden shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px] ${className}`}
     >
@@ -18,7 +18,7 @@ const ArticleCard = ({ className }) => {
           Future of Work
         </h2>
         <p className="text-dark-light mt-3 text-sm md:text-lg">
-          Majority of peole will work in jobs that don't exist today.
+          Majority of peole will work in jobs that don’t exist today.
         </p>
         <div className="flex justify-between flex-nowrap items-center mt-6">
           <div className="flex items-center gap-x-2 md:gap-x-2.5">
