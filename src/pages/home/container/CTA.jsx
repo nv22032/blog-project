@@ -20,7 +20,6 @@ const CTA = () => {
           fill="#0D2436"
         />
       </svg>
-
       <section className="relative bg-dark-hard px-5">
         <div className="container grid grid-cols-12 mx-auto py-10 md:pb-20 lg:place-items-center">
           <div className="col-span-12 lg:col-span-6">
