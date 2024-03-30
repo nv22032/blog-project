@@ -51,7 +51,7 @@ const NavItem = ({ item }) => {
                 <a
                   key={index}
                   href="/"
-                  className="hover:bg-dark-hard hover:text-white px-4 py-2 text-white lg:text-dark-soft"
+                  className="hover:bg-dark-hard lg:bg-white hover:text-white px-4 py-2 lg:text-dark-soft"
                 >
                   {page}
                 </a>
