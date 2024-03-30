@@ -2,7 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import ArticleDetailPage from "./pages/articleDetail/ArticleDetailPage";
-import HomePage from "./pages/home/Homepage";
+import HomePage from "./pages/home/Homepage.jsx";
+import RegisterPage from "./pages/register/RegisterPage";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route index path="/" element={<HomePage />} />
         <Route path="/blog/:id" element={<ArticleDetailPage />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </div>
   );
